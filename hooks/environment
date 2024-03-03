@@ -1,5 +1,6 @@
 #!/bin/bash
-set -euo pipefail
+set -eu
+echo '--- :house_with_garden: Setting up the environment'
 
 echo "Environment hook"
 
