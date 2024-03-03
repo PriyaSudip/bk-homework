@@ -1,0 +1,9 @@
+#!/bin/bash
+set -euo pipefail
+
+echo "Environment hook"
+
+export USER="JohnDoe"
+export PASSWORD="Welcome@123"
+
+echo $USER $PASSWORD
